@@ -1,0 +1,38 @@
+#wrapper-cpu.active #select-button-cpu .arrow {
+  transform: rotate(-180deg);
+}
+
+#wrapper-cpu.active .content-cpu {
+  /* display: block; */
+  opacity: 1;
+  visibility: visible;
+}
+
+#wrapper-gpu.active #select-button-gpu .arrow {
+  transform: rotate(-180deg);
+}
+#wrapper-gpu.active .content-gpu {
+  /* display: block; */
+  opacity: 1;
+  visibility: visible;
+}
+#wrapper-method.active #select-button-method .arrow {
+  transform: rotate(-180deg);
+}
+#wrapper-method.active .content-method {
+  /* display: block; */
+  opacity: 1;
+  visibility: visible;
+}
+
+.options::-webkit-scrollbar {
+  width: 8px;
+}
+.options::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+  border-radius: 25px;
+}
+.options::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 25px;
+}
